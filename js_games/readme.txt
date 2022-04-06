@@ -1,6 +1,6 @@
 A few JavaScript mini-games that I wrote while learning
 
-Balls: A bouncing ball physics simulator
+Balls: A bouncing ball physics simulator. Alter the gravity and watch what happens.
 
 Bricks: A simple brick-breaking game
 
