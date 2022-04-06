@@ -1,5 +1,3 @@
-# (c) Copyright Skillage I.T.
-# (c) This file is Skillage I.T. software and is made available under license.
 # (c) This software is developed by: J Kok
 # (c) Date: 1st September 2021 Time: 13.45
 # (c) File Name: RockPapScis02.py Version: 2.0
