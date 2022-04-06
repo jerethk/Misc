@@ -1,4 +1,4 @@
-A few JavaScript mini-games that I wrote while learning
+A few JavaScript mini-games that I wrote while learning. To play, put game files into a directory, then open index.html in a web browser.
 
 Balls: A bouncing ball physics simulator. Alter the gravity and watch what happens.
 
