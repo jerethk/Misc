@@ -1,3 +1,5 @@
+// Copyright Jereth Kok 2021
+
 // JavaScript source code
 const waveBtn = document.getElementById("wavebutton");
 const canvas = document.getElementById("myCanvas");
