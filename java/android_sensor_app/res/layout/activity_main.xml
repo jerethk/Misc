@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/btnGo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="btnGoClick"
+        android:text="@string/go"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/btnGo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RadioButton
+            android:id="@+id/rbGravity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/gravity" />
+
+        <RadioButton
+            android:id="@+id/rbAccel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/accel" />
+
+        <RadioButton
+            android:id="@+id/rbRotation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rotation" />
+
+        <RadioButton
+            android:id="@+id/rbOrient"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/orient" />
+
+        <RadioButton
+            android:id="@+id/rbGyro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/gyro" />
+
+        <RadioButton
+            android:id="@+id/rbMag"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/mag" />
+    </RadioGroup>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
